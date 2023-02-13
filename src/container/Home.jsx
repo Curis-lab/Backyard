@@ -1,5 +1,6 @@
 import React from 'react'
-import { Menu, Body } from '../Components'
+import { Menu, Body} from '../Components'
+
 function Home() {
   return (
     <div>

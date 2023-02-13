@@ -6,7 +6,7 @@ function Card({single_Blog}) {
     <section class="flex justify-center items-center m-10">
     <div class="bg-white shadow-lg hover:scale-105 duration-300">
         <Link to='/product'>
-            <img class="w-52 h-52 object-cover" src="images/a.jpeg"/>
+            <img class="w-52 h-52 object-cover" src="images/a.jpeg" alt='/'/>
         </Link>
         <div class="px-3 py-4">
             <span class="text-xl font-bold capitalize">{single_Blog.name}</span>
