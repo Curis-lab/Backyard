@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 //if clicked they will show only login page how can i manage it
-
+//using in project
 const Login = () => {
   return (
     <div className="flex justify-center items-center w-screen h-screen shadow-md">

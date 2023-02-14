@@ -1,11 +1,12 @@
 import React from 'react'
-import { Menu, Body} from '../Components'
+import { Menu, Body, Category} from '../Components'
 
 function Home() {
   return (
     <div>
       <Menu/>
       <Body/>
+      <Category/>
     </div>
   )
 }
