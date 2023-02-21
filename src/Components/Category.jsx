@@ -46,7 +46,7 @@ function Category() {
             <FiArrowRightCircle className='text-2xl'/>
         </div>
       </div>
-      <div className='flex w-full justify-between'>
+      <div className='flex w-full justify-between overflow-hidden'>
         {categories_items.map((cate)=><Cate_card items={cate} key={cate.name}/>)}
       </div>
     </div>
