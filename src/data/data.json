@@ -1,0 +1,15 @@
+[
+    {
+        "categories":["vegetables","meals","fruits"],
+        "products":[
+            {"id":1, "name":"Papaya","image":"papayaimage","category":"vegetables","price":200},
+            {"id":2, "name":"Termin","image":"mangoimage","category":"vegetables","price":300},
+            {"id":3, "name":"Final","image":"papayaimage","category":"vegetables","price":400},
+            {"id":4, "name":"Salat","image":"papayaimage","category":"fruits","price":600},
+            {"id":5, "name":"Yoga","image":"papayaimage","category":"fruits","price":600},
+            {"id":6, "name":"Mingo","image":"papayaimage","category":"fruits","price":600},
+            {"id":7, "name":"Fsalterr","image":"papayaimage","category":"fruits","price":800},
+            {"id":8, "name":"Finder","image":"papayaimage","category":"fruits","price":0}
+        ]
+    }
+]

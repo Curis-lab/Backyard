@@ -1,12 +1,15 @@
 import React from 'react'
 
-function Cart({item, callback_function}) {
+function Cart({...item}) {
   return (
-  <div key={item.id} className="flex flex-col shadow-lg rounded-lg" onClick={callback_function}>
-        <div className='bg-slate-500 rounded-t-lg w-full h-full'>
-          <img src={item.image} alt='/' className='w-32 h-32 object-cover hover:scale-50 hover:rounded-lg transition duration-300'/>
-        </div>
+  <div className='bg-blue-900 rounded-lg flex-col text-slate-300'>
+    <div>{item.image}</div>
+    <div>
+      <h1>{item.name}</h1>
+      <p>{item.category}</p>
+      <p>{item.price}</p>
     </div>
+  </div>
   )
 }
 

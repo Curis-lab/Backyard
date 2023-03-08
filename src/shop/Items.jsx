@@ -1,10 +1,19 @@
 import React from 'react'
 import Cart from './Cart'
+import { useContext } from 'react';
+import { shop_content } from '..';
 
-function Items({products, callback}) {
+function Items() {
+  const {shopData} = useContext(shop_content);
   return (
-        <div className="flex gap-2">
-          {products.map(i=><Cart item={i} callback_function={callback} key={i.id}/>)}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-1">
+          {shopData.map(
+            pAndc=>pAndc.products.map(
+              i=>
+            <Cart {...i} key={i.id}/>
+            )
+          )
+          }
         </div>
   )
 }
